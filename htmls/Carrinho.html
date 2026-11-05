@@ -15,7 +15,10 @@
             <a class="logo" href="Index.html">Tênis Daora</a>
         </div>
 
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle"> <!-- checkbox oculto para o menu mobile
+        O <input type="checkbox"> guarda o estado (marcado/desmarcado)
+        O <label> com o ☰ é o botão visível — clicar nele marca/desmarca o checkbox
+        O CSS usa o seletor :checked para mostrar/esconder o menu-->
         <label for="menu-toggle" class="menu-icon">☰</label>
 
         <nav class="menu-principal">
@@ -59,11 +62,11 @@
             </div>
         </section>
 
-        <aside class="resumo-carrinho">
+        <aside class="resumo-carrinho"> <!-- sessão que fica do lado -->
             <h2>Resumo da compra</h2>
             <p>Subtotal: <strong>R$ 1,149,80</strong></p>
             <p>Frete: <strong>R$ 19,90</strong></p>
-            <hr>
+            <hr> <!-- horizontal rule -->
             <p class="total-carrinho">Total: <strong>R$ 1,169,70</strong></p>
             <button class="btn-finalizar" type="button">Finalizar compra</button>
         </aside>

@@ -488,8 +488,6 @@ h2 {
 .informacoes-carrinho h2,
 .informacoes-carrinho p {
     max-width: 100%; /* Garante que o texto não exceda o container */
-    overflow-wrap: anywhere; /* Quebra textos longos */
-    word-break: break-word; /* Força quebra de palavra */
 }
 
 /* Campo de quantidade do item no carrinho (.informacoes-carrinho input) */
